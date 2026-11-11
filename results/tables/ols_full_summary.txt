@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  lwage   R-squared:                       0.441
+Model:                            OLS   Adj. R-squared:                  0.434
+Method:                 Least Squares   F-statistic:                     63.34
+Date:                Wed, 11 Nov 2026   Prob (F-statistic):           7.36e-59
+Time:                        23:53:47   Log-Likelihood:                -260.59
+No. Observations:                 526   AIC:                             535.2
+Df Residuals:                     519   BIC:                             565.0
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4167      0.108      3.863      0.000       0.205       0.628
+educ           0.0802      0.008     10.492      0.000       0.065       0.095
+exper          0.0294      0.005      5.987      0.000       0.020       0.039
+expersq       -0.0006      0.000     -5.585      0.000      -0.001      -0.000
+tenure         0.0317      0.008      4.076      0.000       0.016       0.047
+tenursq       -0.0006      0.000     -1.958      0.050      -0.001    4.99e-07
+female        -0.2965      0.037     -8.107      0.000      -0.368      -0.225
+==============================================================================
+Omnibus:                       13.111   Durbin-Watson:                   1.796
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               24.212
+Skew:                          -0.085   Prob(JB):                     5.53e-06
+Kurtosis:                       4.037   Cond. No.                     4.49e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 4.49e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
